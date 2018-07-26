@@ -47,6 +47,7 @@
         header.parentNode.removeChild(header)
     }
    
+    document.getElementById('content').style.fontFamily = 'Arial, Helvetica Neue, Helvetica, sans-serif'
     document.body.style.background = "white";
     // askubuntu end
 })();
