@@ -6,6 +6,7 @@ stackoverbloat is a userscript (for web browsers) for viewing questions on stack
 * Gray out avatars
 * Disable all toolbars not concerning the actual question
 * Disable visual background patterns (set background color to white)
+* Normalize fonts to sans serif
 
 ## Installation
 ### Chrome
