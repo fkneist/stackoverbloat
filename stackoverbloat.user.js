@@ -25,7 +25,6 @@
     }
 
     if (document.getElementsByTagName('header')) {
-        console.log('sidebar')
         document.getElementsByTagName('header')[0].style.visibility = 'hidden';
     }
 
