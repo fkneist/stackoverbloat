@@ -27,8 +27,8 @@
         document.getElementById('sidebar').style.visibility = 'hidden';
     }
     
-    if (document.getElementById('hmenus')) {
-        document.getElementById('hmenus').style.visibility = 'hidden';
+    if (document.getElementById('header')) {
+        document.getElementById('header').style.visibility = 'hidden';
     }
 
     if(document.querySelector('#question-header > div > a')){
