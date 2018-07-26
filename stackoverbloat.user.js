@@ -26,10 +26,15 @@
     if (document.getElementById('sidebar')) {
         document.getElementById('sidebar').style.visibility = 'hidden';
     }
+    
+    if (document.getElementById('hmenus')) {
+        document.getElementById('hmenus').style.visibility = 'hidden';
+    }
 
     if(document.querySelector('#question-header > div > a')){
        document.querySelector('#question-header > div > a').style.visibility = 'hidden';
     }
+    
 
     var avatars = document.getElementsByClassName('gravatar-wrapper-32')
     for(var i = 0; i < avatars.length; i++){
