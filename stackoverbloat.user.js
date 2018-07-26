@@ -28,7 +28,8 @@
     }
     
     if (document.getElementById('header')) {
-        document.getElementById('header').style.visibility = 'hidden';
+        var header = document.getElementById('header')
+        header.parentNode.removeChild(header)
     }
 
     if(document.querySelector('#question-header > div > a')){
