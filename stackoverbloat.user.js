@@ -6,6 +6,7 @@
 // @author       You
 // @match        https://stackoverflow.com/questions/*
 // @match        https://askubuntu.com/questions/*
+// @match        https://superuser.com/questions/*
 // @grant        none
 // ==/UserScript==
 
