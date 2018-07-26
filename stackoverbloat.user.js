@@ -11,8 +11,17 @@
 
 (function() {
     'use strict';
-
-    document.body.style.background = "white";
+    
+    var avatars = document.getElementsByClassName('gravatar-wrapper-32')
+    for(var i = 0; i < avatars.length; i++){
+        console.log(avatars[i])
+        avatars[i].innerHTML = "";
+        avatars[i].style.backgroundColor = "#eff0f1"
+    }
+    
+    if(document.querySelector('#question-header > div > a')){
+       document.querySelector('#question-header > div > a').style.visibility = 'hidden';
+    }
 
     if (document.getElementsByTagName('header')) {
         console.log('sidebar')
@@ -27,21 +36,16 @@
         document.getElementById('sidebar').style.visibility = 'hidden';
     }
     
+    // askubuntu begin
+    if (document.getElementById('custom-header')) {
+        document.getElementById('custom-header').style.visibility = 'hidden';
+    }
+    
     if (document.getElementById('header')) {
         var header = document.getElementById('header')
         header.parentNode.removeChild(header)
     }
-
-    if(document.querySelector('#question-header > div > a')){
-       document.querySelector('#question-header > div > a').style.visibility = 'hidden';
-    }
-    
-
-    var avatars = document.getElementsByClassName('gravatar-wrapper-32')
-    for(var i = 0; i < avatars.length; i++){
-        console.log(avatars[i])
-        avatars[i].innerHTML = "";
-        avatars[i].style.backgroundColor = "#eff0f1"
-    }
-
+   
+    document.body.style.background = "white";
+    // askubuntu end
 })();
