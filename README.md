@@ -1,4 +1,4 @@
-# stackoverbloat
+# stackoverbl:no_entry_sign:at 
 
 stackoverbloat is a userscript (for web browsers) for viewing questions on stackexchange communities distraction free.
 
