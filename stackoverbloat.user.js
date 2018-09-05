@@ -37,6 +37,10 @@
     }
     
     // askubuntu begin
+		if(document.getElementsByClassName('s-hero')) {
+			document.getElementsByClassName('s-hero')[0].style.visibility = 'hidden';
+		}
+
     if (document.getElementById('custom-header')) {
         document.getElementById('custom-header').style.visibility = 'hidden';
     }
